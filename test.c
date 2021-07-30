@@ -3,7 +3,15 @@
 int main() {
     int a = 42;
     double b = 1337;
+    int c = a & b;
 
-    printf("Hello World! %d - %f\n", a, b);
+    a %= 3;
+
+    if (a > 50) {
+        scanf("%d", &c)
+    } else {
+        printf("Hello World! %d - %f\n", a, b);
+    }
+
     return 0;
 }
