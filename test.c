@@ -11,6 +11,7 @@ int main() {
         scanf("%d", &c)
     } else {
         printf("Hello World! %d - %f\n", a, b);
+        printf("B: %f\n", b)
     }
 
     return 0;
